@@ -9,7 +9,7 @@ export default class PostService {
                     _page: page
                 }
             })
-            return res.data
+            return res
         } catch (e) {
             console.log(e)
         }
