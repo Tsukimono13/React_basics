@@ -9,10 +9,12 @@ class CounterClass extends React.Component {
         this.increment = this.increment.bind(this)
         this.decrement = this.decrement.bind(this)
     }
-    increment(){
+
+    increment() {
         this.setState({count: this.state.count + 1})
     }
-    decrement(){
+
+    decrement() {
         this.setState({count: this.state.count - 1})
     }
 
@@ -26,4 +28,5 @@ class CounterClass extends React.Component {
         )
     }
 }
+
 export default CounterClass;
