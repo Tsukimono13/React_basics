@@ -10,11 +10,11 @@ function App() {
     const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-    if(localStorage.getItem('auth')){
-        setIsAuth(true)
-    }
-    setIsLoading(false)
-        }, [])
+        if (localStorage.getItem('auth')) {
+            setIsAuth(true)
+        }
+        setIsLoading(false)
+    }, [])
 
     return (
         <AuthContext.Provider value={{
