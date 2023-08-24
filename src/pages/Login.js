@@ -11,6 +11,7 @@ const Login = () => {
         setIsAuth(true)
         localStorage.setItem('auth', 'true')
     }
+
     return (
         <div>
             <h1>Login page</h1>
